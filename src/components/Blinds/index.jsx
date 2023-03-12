@@ -7,7 +7,7 @@ export const Blinds = ({ state }) => {
   const [zaluzie, setZaluzie] = useState(state);
 
   return (
-    <div class="blinds">
+    <div className="blinds">
       <div className="blinds__icon">
         <img src={zaluzie === "open" ? blindsOpen : blindsClosed} />
       </div>
